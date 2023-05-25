@@ -1,0 +1,91 @@
+header{
+    background-color: gray;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{ 
+    display: inline;
+    margin: 0 0 0 15;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.piazada{
+    width: 940px ;
+    margin: o auto;
+    padding: 50 px 0;
+
+}
+
+   
+
+
+
+.piazada li{
+    display:  inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20 px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10 px;
+
+}
+
+.kelvin li:hover{
+border-color: pink;
+
+}
+.jean li:active{
+    border-color: aquamarine;
+}
+.kelvin li:hover h2{
+    font-size: 34px;
+}
+.kelvin-d{
+    font-size: 18px;
+}
+.kelvin-p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 40px 0 ;
+
+}
+.codyrigth{
+    color: blueviolet;
+    font-size: 13px;
+    padding: 40px 0;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
