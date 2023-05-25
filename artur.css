@@ -22,14 +22,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: red;
+    color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: black;
+    color:blue hsl(258, 96%, 51%);
     text-decoration: underline;
 }
 .piazada {
@@ -50,7 +50,7 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20 px;
     box-sizing: border-box;
-    border: 2px solid;
+    border: 2px solid black;
     border-radius: 10 px;
 }
 
