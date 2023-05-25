@@ -1,26 +1,26 @@
-header{
+header {
     background-color: gray;
     padding: 20px 0;
 }
 
-.caixa{
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-nav li{ 
+nav li { 
     display: inline;
     margin: 0 0 0 15;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: red;
     font-weight: bold;
@@ -32,18 +32,17 @@ nav a:hover {
     color: black;
     text-decoration: underline;
 }
-.piazada{
+.piazada {
     width: 940px ;
     margin: o auto;
     padding: 50 px 0;
-
 }
 
    
 
 
 
-.piazada li{
+.piazada li {
     display:  inline-block;
     text-align: center;
     width: 30%;
@@ -53,39 +52,37 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 10 px;
-
 }
 
-.kelvin li:hover{
-border-color: pink;
-
+.piazada li :hover {
+    border-color: aqua;
 }
-.jean li:active{
-    border-color: aquamarine;
+.piazada li:active: {<h1>
+    border-color : #4527ec;
 }
-.kelvin li:hover h2{
+ 
+.piazada li:hover h2 {
     font-size: 34px;
 }
-.kelvin-d{
+ .piazada h2{
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .piazada-d {
     font-size: 18px;
-}
-.kelvin-p{
+ }
+ ].piazada-p {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-}
-footer{
-    background-color: blue;
+ }
+ footer { 
+    background-color: aqua;
     text-align: center;
-    padding: 40px 0 ;
-
-}
-.codyrigth{
-    color: blueviolet;
-    font-size: 13px;
     padding: 40px 0;
-}
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+ }
+ .copyright {
+    color: black;
+    font-size: 13px;
+    margin: 20px 0;
+ }
